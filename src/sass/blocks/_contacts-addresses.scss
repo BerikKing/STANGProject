@@ -30,7 +30,41 @@
                     line-height: normal;
                 }
             }
-    }
+            address {
+                margin-top: 12px;
+                color: rgba(0, 0, 0, 0.80);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; 
+                text-decoration-line: underline;
+            }
+            .working_hours {
+                margin-top: 32px;
+                &_open {
+                    display: flex;
+                    &-name {
+                        margin-left: 12px;
+                        color: #111;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                    }
+                }
+                &-name-1, &-name-2 {
+                    margin-top: 12px;
+                    color: rgba(0, 0, 0, 0.80);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+                &-name-2 {
+                    margin-top: 32px;
+                }
+            }
+        }
     }
         
 }

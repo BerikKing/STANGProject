@@ -11,7 +11,7 @@
     </head>
     <body>
         <!-- меню -->
-        <div class="header">
+        <header class="header">
             <div class="container">
                 <div class="header_wrapper">
                     <div class="logo">
@@ -45,7 +45,7 @@
                 </div>
 
             </div>
-        </div>
+        </header>
 
         <!-- главная -->
         <div class="main">
@@ -234,15 +234,20 @@
                             <img src="./icons/map-pin.svg">
                             <div class="contacts_wrapper_addresses-address-name">Адрес:</div>
                         </div>
-                        <address>141006, Московская область,г. Мытищи,
+                        <address>141006, Московская область,г. Мытищи, <br>
                             1-й Рупасовский пер., д. 6В</address>
+
                         <div class="working_hours">
-                            <img src="./icons/clock.svg">
+                            <div class="working_hours_open">
+                                <img src="./icons/clock.svg">
+                                <div class="working_hours_open-name">Время работы:</div>
+                            </div>
+                            
                             <div class="working_hours-name-1">
-                                пн-чт 9:00 - 18:00 мск (заезд на склад с 9:00 - 16:00 мск)
+                                пн-чт 9:00 - 18:00 мск <br> (заезд на склад с 9:00 - 16:00 мск)
                             </div>
                             <div class="working_hours-name-2">
-                                пт 9:00 - 16:00 мск (заезд на склад с 9:00 - 15:00 мск)
+                                пт 9:00 - 16:00 мск <br>(заезд на склад с 9:00 - 15:00 мск)
                             </div>
                         </div>
 
@@ -250,5 +255,30 @@
                 </div>
             </div>
         </div>
+
+        <footer class="footer"> 
+            <div class="container">
+                <div class="footer_wrapper">
+                    <div class="logo">
+                        <img src="./img/logo.svg" alt="logo">
+                    </div>
+                    <div class="menu">
+                        <a href="#">Каталог</a>
+                        <a href="#">О компании</a>
+                        <a href="#">Частые вопросы</a>
+                        <a href="#">Контакты</a>  
+                    </div>
+    
+                    <div class="contact">
+                        <div class="social">
+                            <a href="#"><img class="social_telegram" src="./icons/telegram.svg" alt="telegram"></img></a>
+                            <a href="#"><img class="social_vk" src="./icons/vk.svg" alt="VK"></img></a>
+                        </div>
+                        <div class="contact_mail"><a href="mailto:msk@mail.ru">msk@mail.ru</a></div>
+                        <div class="phone_number"><a href="tel:8-800-700-97-10">8-800-700-97-10</a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
