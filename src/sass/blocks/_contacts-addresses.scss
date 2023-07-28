@@ -1,0 +1,36 @@
+.contacts {
+    min-height: 693px;
+    padding: 120px 0 144px 0;
+    background: url("../img/contact_bg.png") center (center/cover) no-repeat;
+    &_wrapper {
+        display: flex;
+        .map {
+            iframe {
+                border-radius: 8px;
+                border: 1px solid #B0B0B0;
+            }
+        }
+        &_addresses {
+            margin-left: 56px;
+            &-title {
+                color: #111;
+                font-size: 56px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            &-address {
+                display: flex;
+                &-name {
+                    margin-left: 16px;
+                    color: #111;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+    }
+    }
+        
+}

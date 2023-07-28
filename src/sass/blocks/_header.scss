@@ -19,11 +19,11 @@
                 letter-spacing: 0.32px;
                 }
             }
-            .contacts {
+            .contact {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                align-items: start;
+                align-items: flex-start;
                 .phone_number {
                     a { 
                         color: #EB211A;
